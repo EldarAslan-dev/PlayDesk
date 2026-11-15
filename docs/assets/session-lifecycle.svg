@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Animated customer registration to payment and revenue workflow">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b2a"/><stop offset=".5" stop-color="#0b101b"/><stop offset="1" stop-color="#1c1014"/></linearGradient><linearGradient id="ember" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f6b96a"/><stop offset="1" stop-color="#e5684d"/></linearGradient><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5cb9d8"/><stop offset="1" stop-color="#b6eaff"/></linearGradient><radialGradient id="halo"><stop stop-color="#de633d" stop-opacity=".35"/><stop offset="1" stop-color="#de633d" stop-opacity="0"/></radialGradient><pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#8fb4db" stroke-opacity=".075" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="270" rx="15" fill="url(#bg)"/><rect width="1200" height="270" fill="url(#grid)"/>
+<text x="32" y="38" fill="#e8b57e" font-size="15" letter-spacing="2.2" font-family="Arial,sans-serif" font-weight="bold">SESSION LIFECYCLE</text>
+<text x="32" y="61" fill="#9cabb9" font-size="12" font-family="Arial,sans-serif">Five steps, one consistent payment flow</text>
+<line x1="126" y1="134" x2="1074" y2="134" stroke="#4a6876" stroke-opacity=".52" stroke-width="2" stroke-dasharray="7 9"/>
+<circle cy="134" r="7" fill="#f2b878" stroke="#f8ead6" stroke-width="2"><animate attributeName="cx" values="120;348;576;804;1032;120" keyTimes="0;.2;.4;.6;.8;1" dur="8s" repeatCount="indefinite"/></circle>
+<rect x="22" y="91" width="216" height="144" rx="12" fill="#15222b" fill-opacity=".96" stroke="#4e879a" stroke-opacity=".65"/>
+<rect x="35" y="107" width="42" height="42" rx="9" fill="#202f39" stroke="#4e879a" stroke-opacity=".7"/>
+<text x="56" y="135" text-anchor="middle" fill="#8cd1e4" font-size="16" font-family="Arial,sans-serif" font-weight="bold">01</text>
+<text x="37" y="176" fill="#f5efe7" font-size="17" font-family="Arial,sans-serif" font-weight="bold">CUSTOMER</text>
+<text x="37" y="199" fill="#a5b6c1" font-size="13" font-family="Arial,sans-serif">Register player</text>
+<rect x="37" y="215" width="42" height="3" rx="2" fill="#8cd1e4"><animate attributeName="width" values="28;80;28" dur="3s" repeatCount="indefinite"/></rect><rect x="258" y="91" width="216" height="144" rx="12" fill="#15222b" fill-opacity=".96" stroke="#c77e52" stroke-opacity=".65"/>
+<rect x="271" y="107" width="42" height="42" rx="9" fill="#202f39" stroke="#c77e52" stroke-opacity=".7"/>
+<text x="292" y="135" text-anchor="middle" fill="#edaa6c" font-size="16" font-family="Arial,sans-serif" font-weight="bold">02</text>
+<text x="273" y="176" fill="#f5efe7" font-size="17" font-family="Arial,sans-serif" font-weight="bold">TABLE</text>
+<text x="273" y="199" fill="#a5b6c1" font-size="13" font-family="Arial,sans-serif">Select available</text>
+<rect x="273" y="215" width="42" height="3" rx="2" fill="#edaa6c"><animate attributeName="width" values="28;80;28" dur="3.4699999999999998s" repeatCount="indefinite"/></rect><rect x="494" y="91" width="216" height="144" rx="12" fill="#15222b" fill-opacity=".96" stroke="#4e879a" stroke-opacity=".65"/>
+<rect x="507" y="107" width="42" height="42" rx="9" fill="#202f39" stroke="#4e879a" stroke-opacity=".7"/>
+<text x="528" y="135" text-anchor="middle" fill="#8cd1e4" font-size="16" font-family="Arial,sans-serif" font-weight="bold">03</text>
+<text x="509" y="176" fill="#f5efe7" font-size="17" font-family="Arial,sans-serif" font-weight="bold">SESSION</text>
+<text x="509" y="199" fill="#a5b6c1" font-size="13" font-family="Arial,sans-serif">Track duration</text>
+<rect x="509" y="215" width="42" height="3" rx="2" fill="#8cd1e4"><animate attributeName="width" values="28;80;28" dur="3.94s" repeatCount="indefinite"/></rect><rect x="730" y="91" width="216" height="144" rx="12" fill="#15222b" fill-opacity=".96" stroke="#c77e52" stroke-opacity=".65"/>
+<rect x="743" y="107" width="42" height="42" rx="9" fill="#202f39" stroke="#c77e52" stroke-opacity=".7"/>
+<text x="764" y="135" text-anchor="middle" fill="#edaa6c" font-size="16" font-family="Arial,sans-serif" font-weight="bold">04</text>
+<text x="745" y="176" fill="#f5efe7" font-size="17" font-family="Arial,sans-serif" font-weight="bold">PAYMENT</text>
+<text x="745" y="199" fill="#a5b6c1" font-size="13" font-family="Arial,sans-serif">Record receipt</text>
+<rect x="745" y="215" width="42" height="3" rx="2" fill="#edaa6c"><animate attributeName="width" values="28;80;28" dur="4.41s" repeatCount="indefinite"/></rect><rect x="966" y="91" width="216" height="144" rx="12" fill="#15222b" fill-opacity=".96" stroke="#4e879a" stroke-opacity=".65"/>
+<rect x="979" y="107" width="42" height="42" rx="9" fill="#202f39" stroke="#4e879a" stroke-opacity=".7"/>
+<text x="1000" y="135" text-anchor="middle" fill="#8cd1e4" font-size="16" font-family="Arial,sans-serif" font-weight="bold">05</text>
+<text x="981" y="176" fill="#f5efe7" font-size="17" font-family="Arial,sans-serif" font-weight="bold">REVENUE</text>
+<text x="981" y="199" fill="#a5b6c1" font-size="13" font-family="Arial,sans-serif">Baku local date</text>
+<rect x="981" y="215" width="42" height="3" rx="2" fill="#8cd1e4"><animate attributeName="width" values="28;80;28" dur="4.88s" repeatCount="indefinite"/></rect>
+<text x="32" y="257" fill="#8094a7" font-family="Arial,sans-serif" font-size="11">A session remains active until payment is recorded — even after planned time expires.</text>
+</svg>

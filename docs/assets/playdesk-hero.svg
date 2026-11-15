@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="PlayDesk Ragnarok Edition gaming club control center animated overview">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b2a"/><stop offset=".5" stop-color="#0b101b"/><stop offset="1" stop-color="#1c1014"/></linearGradient><linearGradient id="ember" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f6b96a"/><stop offset="1" stop-color="#e5684d"/></linearGradient><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5cb9d8"/><stop offset="1" stop-color="#b6eaff"/></linearGradient><radialGradient id="halo"><stop stop-color="#de633d" stop-opacity=".35"/><stop offset="1" stop-color="#de633d" stop-opacity="0"/></radialGradient><pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#8fb4db" stroke-opacity=".075" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="350" rx="16" fill="url(#bg)"/><rect width="1200" height="350" fill="url(#grid)"/>
+<circle cx="1090" cy="135" r="240" fill="url(#halo)"><animate attributeName="opacity" values=".42;1;.42" dur="5s" repeatCount="indefinite"/></circle>
+<path d="M0 292L280 190L500 275L760 135L1000 210L1200 130" fill="none" stroke="#83c4dc" stroke-width="1.5" opacity=".12"/>
+<path d="M0 310L300 245L530 305L810 194L1080 260L1200 225" fill="none" stroke="#d77e57" stroke-width="1.2" opacity=".15"/>
+<rect x="-260" y="0" width="120" height="350" fill="#c9e4f7" opacity=".045" transform="skewX(-20)"><animate attributeName="x" values="-330;1500" dur="8s" repeatCount="indefinite"/></rect>
+<text x="56" y="56" fill="#c99766" font-size="12" font-family="Arial,sans-serif" font-weight="bold" letter-spacing="3">ARENA OPERATIONS / V1.0</text>
+<rect x="56" y="79" width="57" height="3" rx="1.5" fill="url(#ember)"/>
+<text x="50" y="160" fill="#f5f0e8" font-size="74" font-weight="900" letter-spacing="2" font-family="Arial Black,Arial,sans-serif">PLAYDESK</text>
+<text x="56" y="193" fill="#e8a86e" font-size="18" letter-spacing="7" font-family="Arial,sans-serif">RAGNAROK EDITION</text>
+<text x="56" y="232" fill="#c0cbd5" font-size="17" font-family="Arial,sans-serif">Real-time gaming club management</text>
+<text x="56" y="257" fill="#8094a9" font-size="14" font-family="Arial,sans-serif">Tables  /  Sessions  /  Payments  /  Analytics</text>
+<rect x="56" y="288" width="250" height="35" rx="7" fill="#182631" stroke="#9d623f" stroke-opacity=".6"/>
+<circle cx="76" cy="306" r="5" fill="#63dcb2"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="92" y="312" font-size="12" fill="#e5e7eb" font-family="Arial,sans-serif" letter-spacing="1.2">LIVE SYSTEM  ·  UTC +04</text>
+<rect x="660" y="42" width="496" height="266" rx="15" fill="#101b26" fill-opacity=".93" stroke="#7790a1" stroke-opacity=".28"/>
+<rect x="680" y="60" width="456" height="33" rx="6" fill="#1a2a37"/>
+<circle cx="698" cy="77" r="5" fill="#e97957"/><circle cx="715" cy="77" r="5" fill="#e4b16d"/><circle cx="732" cy="77" r="5" fill="#78d4b5"/>
+<text x="756" y="81" fill="#dbe5ed" font-size="13" font-family="Arial,sans-serif" letter-spacing="1">CONTROL DASHBOARD</text>
+<rect x="682" y="111" width="137" height="77" rx="9" fill="#182b34" stroke="#4d969d" stroke-opacity=".5"/>
+<text x="697" y="131" fill="#93cad8" font-family="Arial,sans-serif" font-size="10" letter-spacing="1">AVAILABLE</text><text x="696" y="165" fill="#ecf5f9" font-family="Arial,sans-serif" font-size="34" font-weight="bold">03</text>
+<rect x="838" y="111" width="137" height="77" rx="9" fill="#292024" stroke="#d06d4d" stroke-opacity=".56"/>
+<text x="852" y="131" fill="#e8aa8c" font-family="Arial,sans-serif" font-size="10" letter-spacing="1">OCCUPIED</text><text x="852" y="165" fill="#f5ece4" font-family="Arial,sans-serif" font-size="34" font-weight="bold">04</text>
+<rect x="994" y="111" width="141" height="77" rx="9" fill="#2b2620" stroke="#edb15f" stroke-opacity=".5"/>
+<text x="1007" y="131" fill="#e9c08c" font-family="Arial,sans-serif" font-size="10" letter-spacing="1">TODAY / AZN</text><text x="1007" y="165" fill="#f4e6d6" font-family="Arial,sans-serif" font-size="31" font-weight="bold">248</text>
+<text x="686" y="220" fill="#a1b3c2" font-size="12" font-family="Arial,sans-serif" letter-spacing="1">LIVE ACTIVITY</text>
+<path d="M690 273L744 261L790 268L844 236L900 250L954 231L1016 241L1075 218L1132 225" fill="none" stroke="url(#ice)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="600" stroke-dashoffset="600"><animate attributeName="stroke-dashoffset" values="600;0;0" keyTimes="0;.72;1" dur="5.5s" repeatCount="indefinite"/></path>
+<circle cx="1075" cy="218" r="5" fill="#f3bb7a"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="56" y="343" fill="#71889a" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.2">ENGINEERED FOR CONSISTENCY</text>
+</svg>
