@@ -1,0 +1,10 @@
+**/bin
+**/obj
+**/node_modules
+**/dist
+**/coverage
+**/.git
+**/.vs
+.env
+.env.*
+**/TestResults

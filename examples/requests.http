@@ -1,0 +1,43 @@
+@apiUrl = http://localhost:5074
+
+### 1. Get anti-CSRF token; copy token into the variable below.
+GET {{apiUrl}}/api/auth/csrf
+
+@csrf = PASTE_CSRF_TOKEN_HERE
+
+### 2. Sign in; replace password. Use cookie support in your HTTP client.
+POST {{apiUrl}}/api/auth/login
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrf}}
+
+{ "email": "admin@playdesk.local", "password": "YOUR_PRIVATE_PASSWORD" }
+
+### 3. List all tables
+GET {{apiUrl}}/api/tables
+
+### 4. Create a customer (copy returned ID)
+POST {{apiUrl}}/api/customers
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrf}}
+
+{ "name": "Nümunə Müştəri" }
+
+### 5. Start a 90-minute session (replace ids)
+POST {{apiUrl}}/api/sessions
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrf}}
+
+{ "customerId": "REPLACE_WITH_CUSTOMER_GUID", "tableId": "REPLACE_WITH_TABLE_GUID", "durationMinutes": 90 }
+
+### 6. Available tables
+GET {{apiUrl}}/api/tables?isAvailable=true
+
+### 7. Payment (replace ID)
+POST {{apiUrl}}/api/sessions/REPLACE_WITH_SESSION_GUID/payment
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrf}}
+
+{ "method": "Cash" }
+
+### 8. Daily revenue (replace with current Baku date)
+GET {{apiUrl}}/api/reports/daily-revenue?date=2026-11-14

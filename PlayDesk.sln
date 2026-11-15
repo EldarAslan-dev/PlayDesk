@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDesk.Domain", "src\backend\PlayDesk.Domain\PlayDesk.Domain.csproj", "{34DBF38B-02FD-41AF-B09E-4D6419E615C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDesk.Application", "src\backend\PlayDesk.Application\PlayDesk.Application.csproj", "{A0116812-7BF9-456C-93D9-4AD21D6BF903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDesk.Infrastructure", "src\backend\PlayDesk.Infrastructure\PlayDesk.Infrastructure.csproj", "{1E474D39-C9C6-4600-9973-DA5C94264449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDesk.API", "src\backend\PlayDesk.API\PlayDesk.API.csproj", "{81D47E85-EA5D-4D68-9298-ACB785D62682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDesk.UnitTests", "tests\PlayDesk.UnitTests\PlayDesk.UnitTests.csproj", "{A0E485EC-4314-4BEC-8486-58E325D5D919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34DBF38B-02FD-41AF-B09E-4D6419E615C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DBF38B-02FD-41AF-B09E-4D6419E615C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DBF38B-02FD-41AF-B09E-4D6419E615C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DBF38B-02FD-41AF-B09E-4D6419E615C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0116812-7BF9-456C-93D9-4AD21D6BF903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0116812-7BF9-456C-93D9-4AD21D6BF903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0116812-7BF9-456C-93D9-4AD21D6BF903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0116812-7BF9-456C-93D9-4AD21D6BF903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E474D39-C9C6-4600-9973-DA5C94264449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E474D39-C9C6-4600-9973-DA5C94264449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E474D39-C9C6-4600-9973-DA5C94264449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E474D39-C9C6-4600-9973-DA5C94264449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D47E85-EA5D-4D68-9298-ACB785D62682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D47E85-EA5D-4D68-9298-ACB785D62682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D47E85-EA5D-4D68-9298-ACB785D62682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D47E85-EA5D-4D68-9298-ACB785D62682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E485EC-4314-4BEC-8486-58E325D5D919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E485EC-4314-4BEC-8486-58E325D5D919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E485EC-4314-4BEC-8486-58E325D5D919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E485EC-4314-4BEC-8486-58E325D5D919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

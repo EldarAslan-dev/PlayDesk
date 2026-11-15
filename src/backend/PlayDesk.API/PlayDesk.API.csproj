@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><UserSecretsId>playdesk-api-dev</UserSecretsId></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlayDesk.Application/PlayDesk.Application.csproj" />
+    <ProjectReference Include="../PlayDesk.Infrastructure/PlayDesk.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.15"><PrivateAssets>all</PrivateAssets></PackageReference>
+    <PackageReference Include="Scalar.AspNetCore" Version="2.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.15" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+name: PlayDesk CI
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restore
+        run: dotnet restore PlayDesk.sln
+      - name: Build
+        run: dotnet build PlayDesk.sln --configuration Release --no-restore
+      - name: Unit tests
+        run: dotnet test tests/PlayDesk.UnitTests/PlayDesk.UnitTests.csproj --configuration Release --no-build
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/frontend/playdesk-web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install
+        run: npm install --no-audit --no-fund
+      - name: Typecheck and build
+        run: npm run build
+      - name: Unit tests
+        run: npm test

@@ -1,0 +1,37 @@
+name: playdesk
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Set MSSQL_SA_PASSWORD in .env}
+    volumes:
+      - playdesk_sql:/var/opt/mssql
+    ports:
+      - "127.0.0.1:14333:1433"
+    restart: unless-stopped
+  api:
+    build:
+      context: .
+      dockerfile: src/backend/PlayDesk.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Default: "Server=db,1433;Database=PlayDeskDb;User Id=sa;Password=${MSSQL_SA_PASSWORD};Encrypt=True;TrustServerCertificate=True;"
+      Database__ApplyMigrationsOnStartup: "true"
+      Seed__AdminEmail: ${PLAYDESK_ADMIN_EMAIL:?Set PLAYDESK_ADMIN_EMAIL in .env}
+      Seed__AdminPassword: ${PLAYDESK_ADMIN_PASSWORD:?Set PLAYDESK_ADMIN_PASSWORD in .env}
+    depends_on:
+      - db
+    restart: on-failure
+  web:
+    build:
+      context: ./src/frontend/playdesk-web
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8088:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+volumes:
+  playdesk_sql:
